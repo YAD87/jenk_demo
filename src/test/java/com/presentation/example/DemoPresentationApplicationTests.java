@@ -33,7 +33,7 @@ public class DemoPresentationApplicationTests {
 	@Test
 	public void pessimistTest() {
 		User user = getUser(10L);
-		Assert.assertEquals(new Long(12), user.getAge());
+		Assert.assertNotEquals(new Long(12), user.getAge());
 	}
 
 }
