@@ -29,6 +29,11 @@ public class SampleController {
         return "Other page";
     }
 
+    @RequestMapping(value = "/hello")
+    @ResponseBody
+    String helloPage() {
+        return "Hello page";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(SampleController.class, args);
