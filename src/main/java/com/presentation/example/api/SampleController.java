@@ -26,10 +26,10 @@ public class SampleController {
     @RequestMapping(value = "/other")
     @ResponseBody
     String otherPage() {
-        return "Other page";
+        return "Other page---11--";
     }
 
-    
+
 
     public static void main(String[] args) {
         SpringApplication.run(SampleController.class, args);
