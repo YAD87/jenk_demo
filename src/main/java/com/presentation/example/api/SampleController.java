@@ -29,6 +29,12 @@ public class SampleController {
         return "Other page---11--";
     }
 
+    @RequestMapping(value = "/test")
+    @ResponseBody
+    String testPage() {
+        return "testPage";
+    }
+
 
 
     public static void main(String[] args) {
