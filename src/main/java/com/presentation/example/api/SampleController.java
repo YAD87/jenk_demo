@@ -32,7 +32,7 @@ public class SampleController {
     @RequestMapping(value = "/test")
     @ResponseBody
     String testPage() {
-        return "testPage";
+        return "devops";
     }
 
 
