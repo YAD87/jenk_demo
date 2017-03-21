@@ -16,9 +16,9 @@ public class SampleController {
     @ResponseBody
     User homePage() {
         return User.newBuilder()
-                .setName("Test")
-                .setLastName("Payatakov")
-                .setAge(22L)
+                .setName("Test_Newton")
+                .setLastName("Abraam")
+                .setAge(27L)
                 .setGender(Gender.MALE)
                 .build();
     }
