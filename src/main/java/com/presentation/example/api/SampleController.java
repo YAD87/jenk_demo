@@ -17,7 +17,7 @@ public class SampleController {
     User homePage() {
         return User.newBuilder()
                 .setName("Test")
-                .setLastName("LastName")
+                .setLastName("Payatakov")
                 .setAge(22L)
                 .setGender(Gender.MALE)
                 .build();
